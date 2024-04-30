@@ -2,10 +2,6 @@ import { select } from "d3";
 import React, { useEffect, useRef, useState } from "react";
 
 function SimpleSmiley() {
-  const [dimensions, setDimensions] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
-  });
   const svgRef = useRef(false);
 
   useEffect(() => {
